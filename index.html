@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explore Star Types</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+
+    <h1>Visualize Star Types</h1>
+    <!--Slider for Temperature-->       
+    <span class="dot" id = "star"></span>
+    <br>
+    <div class="range-wrap">
+        <h2>Adjust Temperature here</h2>
+        <span> <3,500 K</span><input type="range" class="range" min="500" max="35000" id = "tempSlider" step = "100" value = 500><span>>30,000 K</span>
+        <output class="bubble"></output>
+
+        
+    </div>
+
+    <div class = "range-wrap">
+        <h2>Adjust Size here (km)</h2>
+        <span>0</span><input type="range" class="range" min="0" max="15" id = "sizeSlider" step = "0.15" value = "0.00001"><span>15</span>
+        <output class="bubble"></output>
+    </div>
+    
+    <br>
+    <button id = "checkStarType">Check Star Type</button>
+    <!--Textbox explaining the star category-->
+    <div>
+        <p id = "commentary"></p>
+    </div>
+      
+  </body>
+</html>

@@ -1,0 +1,2 @@
+stargazing tag element
+<span class="mb_anchor_title">White Dwarf<a class="mb_anchor" name="otp_white_dwarf"></a></span>
